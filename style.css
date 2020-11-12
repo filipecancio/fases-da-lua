@@ -51,6 +51,7 @@ h1 strong{
     width: 300px;
     height: 20px;
     background: rgba(196, 196, 196, 0.8);
+    border: none;
     border-radius: 5px;
     color: #240E27;
     text-align: center;
@@ -71,9 +72,15 @@ h1 strong{
     flex-direction: column;
     align-items: center;
     justify-content: center;
+    transition: 1s;
+}
+#moon-img{
+    transition: 1s;
 }
 #moon-name{
     color: #616161;
+    font-size: 20px;
+    margin: 0;
 }
 footer{
     display: flex;

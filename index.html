@@ -19,9 +19,9 @@
         <p>Última noite:</p>
         <input type="number" name="ultima" id="ultima" placeholder="%">
     </div>
-    <a id="moon-btn" href="#">Determinar fase da Lua</a>
+    <button id="moon-btn" onclick="getValues()">Determinar fase da Lua</button>
     <div class="moon-result">
-        <img src="./assets/img/none.png" alt="moon">
+        <img id="moon-img" src="./assets/img/none.png" alt="moon">
         <p id="moon-name">Sem informações</p>
     </div>
     <footer>
@@ -29,5 +29,6 @@
         <p>Projeto de Programação Web do curso de Sistemas de Informação</p>
         <p>Desenvolvido por Filipe Câncio</p>
     </footer>
+    <script src="script.js"></script>
 </body>
 </html>
