@@ -1,2 +1,5 @@
 # fases-da-lua
-Atividade de Programação Web
+
+A Lua, como se sabe, é o único satélite natural da Terra. Com um telescópio e com certa perícia visual, é possível, após analisar a Lua por duas noites seguidas, identificar o percentual aproximado de sua porção visível e as próprias mudanças que ocorreram em sua iluminação dia a dia, quando vista da Terra. Essas mudanças de iluminação são conhecidas como fases da Lua, conforme mostrado na figura abaixo:
+Se a porção visível da Lua no momento da observação estiver entre 0 e 2%, por exemplo, a fase é conhecida como Lua nova; se estiver entre 3 e 96% (com crescimento de porção visível em relação ao dia anterior), Lua crescente; se estiver entre 97 e 100%, Lua cheia; e se estiver entre 96 e 3% (com redução de porção visível em reação ao dia anterior), Lua minguante. Construa uma página semelhante àquelas mostradas nas figuras abaixo, para entrada da porcentagem de visibilidade da Lua nas duas últimas noites. 
+Para processamento dos dados, escreva uma função JavaScript (a ser acionada através de um botão) que identificará a fase em que a Lua se encontra na última noite. Sobre a exibição do resultado obtido, use um parágrafo para o nome da fase da Lua, além do carregamento da imagem correspondente à fase da Lua que é exibida logo abaixo do formulário de entrada de dados.
