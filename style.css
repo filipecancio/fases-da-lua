@@ -1,0 +1,82 @@
+body{
+    width: 100%;
+    min-height: 100%;
+    padding: 0;
+    margin: 0;
+    background: url(./assets/img/fundo.png) no-repeat center;
+    font-family: Arial;
+    font-size: 13px;
+    color: white;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+h1{
+    font-size: 30px;
+}
+h1 strong{
+    font-size: 80px;
+}
+
+.moon-question{
+    width: 300px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.moon-question input{
+    width: 150px;
+    height: 20px;
+    background: rgba(196, 196, 196, 0.8);
+    color: #240E27;
+    text-align: right;
+    border: none;
+    border-radius: 3px;
+}
+.moon-question input ::placeholder {
+    color: #240E27;
+    opacity: 1;
+}
+::placeholder {
+    color: #240E27;
+    opacity: 1;
+}
+#moon-btn{
+    text-decoration: none;
+    width: 300px;
+    height: 20px;
+    background: rgba(196, 196, 196, 0.8);
+    border-radius: 5px;
+    color: #240E27;
+    text-align: center;
+    margin: 10px 0;
+    transition: 1s;
+    padding-top: 3px;
+}
+#moon-btn:hover{
+    background:#240E27;
+    color: #C4C4C4;
+}
+.moon-result{
+    width: 300px;
+    height: 172px;
+    background: rgba(196, 196, 196, 0.6);
+    border-radius: 3px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+#moon-name{
+    color: #616161;
+}
+footer{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-top: 30px;
+}
+footer p{
+    margin: 5px 0;
+}
