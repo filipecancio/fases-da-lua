@@ -4,7 +4,7 @@ body{
     padding: 0;
     margin: 0;
     background: url(./assets/img/fundo.png) no-repeat center;
-    font-family: Arial;
+    font-family: 'Open Sans Condensed',Arial;
     font-size: 13px;
     color: white;
     display: flex;
@@ -13,10 +13,14 @@ body{
 }
 
 h1{
-    font-size: 30px;
+    font-size: 20px;
+    margin: 5px 0 0 0;
+    font-weight: normal;
 }
 h1 strong{
-    font-size: 80px;
+    font-family: 'Lovers Quarrel', cursive;
+    font-size: 100px;
+    font-weight: normal;
 }
 
 .moon-question{
@@ -75,7 +79,7 @@ footer{
     display: flex;
     flex-direction: column;
     align-items: center;
-    margin-top: 30px;
+    margin-top: 50px;
 }
 footer p{
     margin: 5px 0;
